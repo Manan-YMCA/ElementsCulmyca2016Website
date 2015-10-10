@@ -1,0 +1,1 @@
+<p style="text-align:centre; color:black">Sorry, Registrations are closed.</p>

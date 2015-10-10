@@ -1,0 +1,152 @@
+/*
+	Escape Velocity 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body, input, select, textarea
+	{
+		font-size: 12pt;
+		line-height: 1.5em;
+		letter-spacing: 0.015em;
+	}
+
+	body
+	{
+		min-width: 960px;
+	}
+	
+	.only-desktop
+	{
+		display:none;
+	}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	.wrapper
+	{
+		padding: 4em 0 7em 0;
+	}
+
+	#header-wrapper
+	{
+		height: 275px !important;
+		
+		background: url('../images/background.jpg') left center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#intro-wrapper
+	{
+		padding-bottom: 7em;
+	}
+	
+	#footer-wrapper
+	{
+	}
+
+		#footer-wrapper hr
+		{
+			margin: 3em 0 3em 0;
+		}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		height: 275px !important;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 37.5%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: -0.5em;
+	}
+	
+	#logo h1
+		{
+			font-size: 1.75em;
+		}
+		
+	.homepage #logo
+		{
+			margin-top: -147px;;
+		}
+	
+	.left-sidebar #pravega_logo,
+	.no-sidebar #pravega_logo
+	{
+		max-width: 35%;
+		height: auto;
+		width: auto;
+		margin-left: 5px;
+		margin-right: 0px;
+		margin-bottom: -25px;
+	}
+	
+	.left-sidebar #tiles,
+	.no-sidebar #tiles
+	{
+		position:absolute;
+		top:40%;
+
+	}
+	
+	.left-sidebar .the_tile,
+	.no-sidebar .the_tile
+	{
+		height: 45px;
+		width: 45px;
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro
+	{
+	}
+
+		#intro .style1
+		{
+			font-size: 1.25em;
+		}
+	
+		#intro .style2
+		{
+			font-size: 2.25em;
+		}
+		
+	#title2:hover, #events:hover
+		{
+			cursor: pointer; 
+			cursor: hand;
+		}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 3em 0 0 0;
+	}
