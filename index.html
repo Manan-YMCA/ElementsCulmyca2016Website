@@ -14,13 +14,15 @@
   <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
   <!-- START THEME STYLE -->
   <link rel="stylesheet" type="text/css" href="css/normal.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/headhesive.css">
   <link href="css/animate.css" rel="stylesheet">
   
-
   <!-- END THEME STYLE -->
 
   <!-- START FONTELLO ICONS STYLESHEET -->
@@ -59,8 +61,9 @@
   <!-- SCROLL DIV #boxscroll by nicescroll -->
 
 <div tabindex="1000" style="overflow-y: auto;" id="boxscroll">
-
-
+<!--what lies below is extreme lazyness in attemp to comment a section! Coder discretion is advised-->
+<style>
+  /*
 <!-- CHANGEABLE UNIQUE SECTOIN ID -->
 <section id="home">
 
@@ -117,8 +120,53 @@
 </section>
 <!-- END SECTION -->
 <!-- END HEADER -->
-
-
+*/
+</style>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"     style="font: normal normal normal 14px/1 FontAwesome; color:#27AE60;"></i>
+                </button>
+		<a href="index.html"><img class="logo" height="60%" width="60%" src="images/logogree.png" alt="PRAVEGA" style="padding-top: 10px;"></a>
+            </div>
+			<style>
+				.sub:hover{
+					box-shadow:none;
+				}
+				.active {
+					outline: none;
+					background-color: rgba(0,0,0,0);
+				}
+			</style>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="padding-top: 10px;">
+                <ul class="nav navbar-nav" >
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="idea.html">Idea Presentation</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="Workshops.html">Workshops</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="team.html">Contact</a>
+                    </li>
+		    </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 <div class="header-parallax-homepage" data-stellar-background-ratio="0.5">
 <div class="slidersection">
@@ -155,7 +203,7 @@
       <div class="w-container wrap">
 
           <div class="center">
-
+<br><br>
             <h2 class="underline">ABOUT <span class="green">PRAVEGA</span></h2>
 
             <p><strong>In its conception, Pravega is the first and the largest of its kind, and is designed to attract those students who are the brightest, most creative, and most passionate about knowledge of any form. It will grow into a platform for the methodical science and experience of IISc to mingle with the exuberant and keen nature of the youth of India, each gaining from their interaction with the other.</p>
@@ -226,7 +274,7 @@ Close to our country, closer to your soul.
       <div class="w-container wrap">
 
         <div class="center">
-
+<br><br>
           <h1 class="underline">EVENTS</h1>
 
         </div>
@@ -575,6 +623,8 @@ Close to our country, closer to your soul.
 
 <!-- START JQUERY PLUGINS LOAD -->
   <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   <script src="js/grayscale.js"></script>
   <script src="js/modernizr.js"></script>
   <script src="js/normal.js"></script>
   <script src="js/carousels.js"></script>
@@ -588,7 +638,8 @@ Close to our country, closer to your soul.
   <script src="js/headhesive.min.js"></script>
   <script src="js/waypoints.min.js"></script>
   <script src="js/scripts.js"></script>
-  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
 
   <!-- END JQUERY PLUGINS LOAD -->
 

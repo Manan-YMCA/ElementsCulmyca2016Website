@@ -14,6 +14,9 @@
   <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
   <!-- START THEME STYLE -->
   <link rel="stylesheet" type="text/css" href="css/normal.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -51,7 +54,6 @@
   <!-- EDN FAVICON -->
     
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
-
 </head><!-- END HEAD -->
 <body height=100% > <!-- START BODY TAG -->
    
@@ -59,8 +61,9 @@
   <!-- SCROLL DIV #boxscroll by nicescroll -->
 
 <div tabindex="1000" style="overflow-y: auto;" id="boxscroll">
-
-
+<!--what lies below is extreme lazyness in attemp to comment a section! Coder discretion is advised-->
+<style>
+  /*
 <!-- CHANGEABLE UNIQUE SECTOIN ID -->
 <section id="home">
 
@@ -114,15 +117,61 @@
 </section>
 <!-- END SECTION -->
 <!-- END HEADER -->
-
+*/
+</style>
 <div class="header-parallax-biology" data-stellar-background-ratio="0.5">
 <div class="slidersection">
 
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"     style="font: normal normal normal 14px/1 FontAwesome; color:#27AE60;"></i>
+                </button>
+		<a href="index.html"><img class="logo" height="60%" width="60%" src="images/logogree.png" alt="PRAVEGA" style="padding-top: 10px;"></a>
+            </div>
+			<style>
+				.sub:hover{
+					box-shadow:none;
+				}
+				.active {
+					outline: none;
+					background-color: rgba(0,0,0,0);
+				}
+			</style>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="padding-top: 10px;">
+                <ul class="nav navbar-nav" >
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="idea.html">Idea Presentation</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="Workshops.html">Workshops</a>
+                    </li>
+                    <li>
+                        <a class=" page-scroll" href="team.html">Contact</a>
+                    </li>
+		    </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
   
 
 <div class="overlay">
 
-  <div class="center fixed-content">
+  <div class="center fixed-content" height=100% background-size="cover">
     <div class="center-fix">
     <h1 class="underline animated fadeInDown">BIOLOGY</h1>
     <h4 class="animated fadeInUp delay-05s" style="margin-bottom: 50px;"><strong class="green">“You are so hot, you denature my proteins!”</strong></br>
@@ -380,6 +429,8 @@ The small! The Big! What not captures the sight of biology? Observing an amoeba 
 
 <!-- START JQUERY PLUGINS LOAD -->
   <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <script src="js/grayscale.js"></script>
   <script src="js/modernizr.js"></script>
   <script src="js/normal.js"></script>
   <script src="js/carousels.js"></script>
