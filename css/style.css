@@ -301,6 +301,16 @@ padding: 100px 0 90px;
 .header-parallax-workshops{
   height: 580px;
 }
+.header-parallax-team{
+  background: url(../images/portfolio/team.png);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.header-parallax-team{
+  height: 580px;
+}
 
 .opcaity {
   background: rgba(0,0,0,0.89);
