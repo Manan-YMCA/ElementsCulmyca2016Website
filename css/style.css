@@ -691,9 +691,11 @@ background: #FFFFFF !important;
 #Grid .mix {
   display: none;
   opacity: 0;
-  width: 33.328vw;
-  -moz-border-radius:100px;
-  border-radius:100px;
+  width: 33.328%;
+  height:25vw;
+  background-size: cover;
+ /* -moz-border-radius:100px;
+  border-radius:100px;*/
   
   vertical-align: top;
   background: #CCC;
