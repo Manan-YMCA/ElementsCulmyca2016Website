@@ -439,9 +439,6 @@ margin: auto;
 * Navigation 
 
 *********************************************/
-.navbar {
-}
-
 .nav {
   margin-top: 0;
 }
@@ -670,7 +667,7 @@ background: #FFFFFF !important;
 }
 
 
-@media screen and max-width 306em {
+@media screen and max-width(306em) {
   .cbp-qtrotator {
     font-size: 70%;
   }
@@ -1076,16 +1073,16 @@ top: 1px;
     flex: 1;
 }
 .event{
-    height=100%;
+    height:100%;
     display:flex;
     align-content:center;
-    <!--flex-wrap="wrap";-->
+    /*flex-wrap="wrap";*/
     justify-content:sapce-between;
     
 }
 
 .item{
-    width=33.33333333%
+    width:33.33333333%;
     margin:0px;
     
 }
