@@ -68,7 +68,7 @@ document.write("</style>");
 document.write("<div class=\"social\">");
 document.write("  <a href=\"https://www.facebook.com/PravegaIISc?fref=ts\" class=\"link facebook\" target=\"_system\"><span class=\"fa fa-facebook29\"></span></a>");
 document.write("  <a href=\"https://www.youtube.com/user/IIScPravega\" class=\"link youtube\" target=\"_system\"><span class=\"fa fa-logotype46\"></span></a>");
-document.write("  <a href=\"https://plus.google.com/+PravegaOrg/posts\" class=\"link google-plus\" target=\"_system\"><span class=\"fa fa-google2\"></span></a>");
+document.write("  <a href=\"https://plus.google.com/+PravegaOrg/posts\" class=\"link google-plus\" target=\"_system\"><span class=\"fa fa-google1\"></span></a>");
 document.write("</div>");
 document.write("</span>");
 document.write("<script src=\"js/ripple.js\"></script>");
