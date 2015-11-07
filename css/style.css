@@ -1060,8 +1060,12 @@ Waypoints
 .delay-1-s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .delay-1-25s { animation-delay: 1.25s; -webkit-animation-delay: 1.25s; }
 .delay-1-5s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
-.delay-1-75s { animation-delay: 0.75s; -webkit-animation-delay: 1.75s; }
-.delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }/* custom */
+.delay-1-75s { animation-delay: 1.75s; -webkit-animation-delay: 1.75s; }
+.delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
+.delay-2-25s { animation-delay: 2.25s; -webkit-animation-delay: 2.25s; }
+.delay-2-5s { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }
+.delay-2-75s { animation-delay: 2.75s; -webkit-animation-delay: 2.75s; }
+.delay-3s { animation-delay: 3s; -webkit-animation-delay: 3s; }/* custom */
 .button span i.cogelegance-icons- {
 font-size: 20px;
 position: relative;
