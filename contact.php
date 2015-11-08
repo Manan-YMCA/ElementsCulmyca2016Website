@@ -17,16 +17,16 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Thank you for the message. We will contact you shortly.');
-		window.location = 'index.html';
+	alert('Thank you for the message. We will contact you shortly.');
+	window.location = 'index.html';
 	</script>
-<?php
+	<?php
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Message failed. Please, send an email to newthinks@live.com');
-		window.location = 'index.html';
+	alert('Message failed. Please, send an email to newthinks@live.com');
+	window.location = 'index.html';
 	</script>
-<?php
+	<?php
 }
 ?>
