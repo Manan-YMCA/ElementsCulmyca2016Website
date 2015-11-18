@@ -291,6 +291,18 @@ padding: 100px 0 90px;
   height: 580px;
 }
 
+.header-parallax-register{
+  background: url(../images/portfolio/register.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.header-parallax-register{
+  height: 580px;
+}
+
+
 .header-parallax-workshops{
   background: url(../images/portfolio/workshop.jpg);
   background-size: cover;
