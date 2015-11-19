@@ -294,6 +294,7 @@ html { overflow-y: scroll; }
  .w-col-5{width:41.66666666666667%} 
 
  .w-col-6{width:50%} 
+ .w-col6{width:50%}
 
  .w-col-7{width:58.333333333333336%} 
 
@@ -391,8 +392,8 @@ html { overflow-y: scroll; }
 
  .w-col-medium-5{width:41.66666666666667%} 
 
- .w-col-medium-6{width:50%} 
-
+ .w-col-6{width:50%} 
+ .w-col6{width:50%}
  .w-col-medium-7{width:58.333333333333336%} 
 
  .w-col-medium-8{width:66.66666666666666%} 
@@ -481,12 +482,12 @@ html { overflow-y: scroll; }
 
   .w-col{width:100%;left:auto;right:auto} 
 
-  .w-col-3{width:25%} 
+  .w-col-small-3{width:25%} 
 
-  .w-col-4{width:33.33333333333333%} 
+  .w-col-small-4{width:33.33333333333333%} 
 
   .w-col-6{width:50%} 
-
+ .w-col6{width:50%}
   .w-col-small-push-1{left:8.333333333333332%} 
 
   .w-col-small-push-2{left:16.666666666666664%} 
@@ -567,12 +568,12 @@ html { overflow-y: scroll; }
 
     .w-col{width:100%}
 
-    .w-col-3{width:25%} 
+    .w-col-tiny-3{width:25%} 
 
-    .w-col-4{width:33.33333333333333%} 
+    .w-col-tiny-4{width:33.33333333333333%} 
 
     .w-col-6{width:50%} 
-
+ .w-col6{width:50%}
     .w-col-tiny-push-1{left:8.333333333333332%} 
 
     .w-col-tiny-push-2{left:16.666666666666664%} 
