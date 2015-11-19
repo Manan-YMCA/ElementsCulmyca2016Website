@@ -481,11 +481,11 @@ html { overflow-y: scroll; }
 
   .w-col{width:100%;left:auto;right:auto} 
 
-  .w-col-small-3{width:25%} 
+  .w-col-3{width:25%} 
 
-  .w-col-small-4{width:33.33333333333333%} 
+  .w-col-4{width:33.33333333333333%} 
 
-  .w-col-small-6{width:50%} 
+  .w-col-6{width:50%} 
 
   .w-col-small-push-1{left:8.333333333333332%} 
 
@@ -567,11 +567,11 @@ html { overflow-y: scroll; }
 
     .w-col{width:100%}
 
-    .w-col-tiny-3{width:25%} 
+    .w-col-3{width:25%} 
 
-    .w-col-tiny-4{width:33.33333333333333%} 
+    .w-col-4{width:33.33333333333333%} 
 
-    .w-col-tiny-6{width:50%} 
+    .w-col-6{width:50%} 
 
     .w-col-tiny-push-1{left:8.333333333333332%} 
 
