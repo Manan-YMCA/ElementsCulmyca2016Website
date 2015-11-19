@@ -48,7 +48,16 @@
   <!-- START MOBILE DETECT -->
   <script>if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';</script>
   <!-- END MOBILE DETECT -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-69852654-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   <!-- START FAVICON -->
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <!-- EDN FAVICON -->
@@ -96,7 +105,7 @@
     <a class="w-nav-link menu-li" href="index.html#events">EVENTS</a>
     <a class="w-nav-link menu-li" href="Workshops.html">WORKSHOPS</a>
     <a class="w-nav-link menu-li" href="team.html">CONTACT US</a>
-
+    <a class="w-nav-link menu-li" href="register.html">REGISTER</a>
     </nav>
     <!-- END NAVIGATION LINKS -->
 
@@ -159,6 +168,9 @@
             </li>
             <li>
               <a class=" page-scroll" href="team.html">Contact</a>
+            </li>
+			<li>
+              <a class=" page-scroll" href="register.html">Register</a>
             </li>
           </ul>
         </div>
