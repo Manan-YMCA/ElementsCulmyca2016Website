@@ -701,20 +701,19 @@ background: #FFFFFF !important;
 }
 
 #Grid .mix {
-  display: inline-block;
+  display: none;
   opacity: 0;
-  width: 33.315%;
+  width: 33.3%;
   height:25vw;
   background-size: cover;
  /* -moz-border-radius:100px;
   border-radius:100px;*/
-  
-  vertical-align: top;
+  float: left;
+  vertical-align: baseline;
   background: #CCC;
   color: #FFF;
   font-size: 30px;
   text-align: center;
-  position: relative;
 }
 
 .filter {
