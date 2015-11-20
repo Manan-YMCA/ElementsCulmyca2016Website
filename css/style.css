@@ -701,7 +701,7 @@ background: #FFFFFF !important;
 }
 
 #Grid .mix {
-  display: none;
+  display: inline-block;
   opacity: 0;
   width: 33.315%;
   height:25vw;
