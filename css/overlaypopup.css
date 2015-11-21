@@ -27,7 +27,7 @@ body {
 	cursor: pointer;
 	z-index: 1000; /* high z-index */
 	background: #000; /* fallback */
-	background: rgba(0,0,0,0.75);
+	background: rgba(0,0,0,0);
 }
 	.overlay-content {
 		display: none;
