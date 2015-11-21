@@ -291,18 +291,6 @@ padding: 100px 0 90px;
   height: 580px;
 }
 
-.header-parallax-register{
-  background: url(../images/portfolio/register.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  margin: auto;
-}
-
-.header-parallax-register{
-  height: 580px;
-}
-
-
 .header-parallax-workshops{
   background: url(../images/portfolio/workshop.jpg);
   background-size: cover;
@@ -321,6 +309,17 @@ padding: 100px 0 90px;
 }
 
 .header-parallax-team{
+  height: 580px;
+}
+
+.header-parallax-register{
+  background: url(../images/portfolio/register.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.header-parallax-register{
   height: 580px;
 }
 
@@ -703,17 +702,23 @@ background: #FFFFFF !important;
 #Grid .mix {
   display: none;
   opacity: 0;
-  width: 33.3%;
+  width: 33.328%;
   height:25vw;
   background-size: cover;
  /* -moz-border-radius:100px;
   border-radius:100px;*/
-  float: left;
-  vertical-align: baseline;
+  
+  vertical-align: top;
   background: #CCC;
   color: #FFF;
   font-size: 30px;
   text-align: center;
+  position: relative;
+  
+
+  float: left;
+  vertical-align: baseline;
+
 }
 
 .filter {
