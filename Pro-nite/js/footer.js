@@ -1,0 +1,77 @@
+document.write("<span style=\"float:left; padding-left: 2%;\"><a class=\"\" href=\"http://www.iisc.ernet.in\" target=\"_system\"><img src=\"images\/iisc.png\"></a></span>");
+document.write("<span style=\"padding-top:40px; float:right;\">");
+document.write("	<style>");
+document.write(".social {");
+document.write("  position: relative;");
+document.write("  padding-right:20px;");
+document.write("  width: 100%;");
+document.write("  top: 50%;");
+document.write("  text-align: center;");
+document.write("  transform: translateY(-50%);");
+document.write("}");
+document.write(".social .link {");
+document.write("  display: inline-block;");
+document.write("  vertical-align: middle;");
+document.write("  position: relative;");
+document.write("  width: 56px;");
+document.write("  height: 56px;");
+document.write("  border-radius: 100%;");
+document.write("  border: 1.8px dashed white;");
+document.write("  background-clip: content-box;");
+document.write("  padding: 7px;");
+document.write("  transition: .5s;");
+document.write("  color: #D7D0BE;");
+document.write("  margin-left: 15px;");
+document.write("  margin-right: 15px;");
+document.write("  text-shadow:");
+document.write("    0 -1px 0 rgba(0, 0, 0, 0.2),");
+document.write("    0 1px 0 rgba(255, 255, 255, 0.2);");
+document.write("  font-size: 30px;");
+document.write("}");
+
+document.write(".social .link span {");
+document.write("  display: block;");
+document.write("  position: relative;");
+document.write("  text-align: center;");
+document.write("  top: 50%;");
+document.write("  left: 50%;");
+document.write("  transform: translate(-50%, -50%);");
+document.write("}");
+
+document.write(".social .link:hover {");
+document.write("  width: 76px;");
+ document.write(" height: 76px;");
+  
+  document.write("border-radius: 100%;");
+ document.write(" border: 1.8px dashed white;");
+ document.write(" background-clip: content-box;");
+ document.write(" color: white;");
+document.write("  margin-left: -5px; ");
+document.write("  transform: translateX(10px) rotate(360deg);");
+document.write("}");
+
+document.write(".social .link.google-plus {");
+document.write("  background-color: #dd4b39;");
+document.write("  color: white;");
+document.write("}");
+
+document.write(".social .link.youtube {");
+document.write("  background-color: #cd201f;");
+document.write("  color: white;");
+document.write("}");
+
+document.write(".social .link.facebook {");
+document.write("  background-color: #3b5998;");
+document.write("  color: white;");
+document.write("}");
+document.write("</style>");
+document.write("<div class=\"social\">");
+document.write("  <a href=\"https://www.facebook.com/PravegaIISc?fref=ts\" class=\"link facebook\" target=\"_system\"><span class=\"fa fa-facebook29\"></span></a>");
+document.write("  <a href=\"https://www.youtube.com/user/IIScPravega\" class=\"link youtube\" target=\"_system\"><span class=\"fa fa-logotype46\"></span></a>");
+document.write("  <a href=\"https://plus.google.com/+PravegaOrg/posts\" class=\"link google-plus\" target=\"_system\"><span class=\"fa fa-google1\"></span></a>");
+document.write("</div>");
+document.write("</span>");
+document.write("<script src=\"js/ripple.js\"></script>");
+document.write("<script src=\"js/jquery.validate.min.js\" ></script>");
+document.write("	<script src=\"js/jquery.colorbox-min.js\" ></script>");
+document.write("	<script src=\"js/hide.js\" ></script>");
