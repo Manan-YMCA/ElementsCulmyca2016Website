@@ -1,1 +1,0 @@
-[10-Jan-2015 19:54:57 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/pravega2015/public_html/admin/student_registration.php on line 44
