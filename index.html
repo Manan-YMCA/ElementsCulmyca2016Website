@@ -58,7 +58,6 @@
   ga('send', 'pageview');
 
   </script>
-
   <!-- START FAVICON -->
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <!-- EDN FAVICON -->
@@ -92,7 +91,7 @@
         </style>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse" style="padding-top: 10px;">
-          <ul class="nav navbar-nav" >
+          <ul class="nav navbar-nav dropdown" >
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
             <li class="hidden">
               <a href="#page-top"></a>
@@ -101,7 +100,7 @@
               <a class=" page-scroll" href="index.html#about">About Us</a>
             </li>
             <li>
-              <a class=" page-scroll" href="pronights/pronights.html">ProNights</a>
+              <a class=" page-scroll" href="pronights/pronights.html" target="_blank">ProNights</a>
             </li>
             <li>
               <a class=" page-scroll" href="technical.html">Technical</a>
@@ -112,14 +111,25 @@
             <li>
               <a class=" page-scroll" href="Workshops.html">Workshops</a>
             </li>
-            <li>
-              <a class=" page-scroll" href="team.html">Contact</a>
-            </li>
+            
             <li>
               <a class=" page-scroll" href="sponsors.html">Sponsors</a>
             </li>
+            <!--<li>
+              <a class=" page-scroll dropdown-toggle" data-toggle="dropdown" href="team.html">Schedule<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a class=" page-scroll" href="http://postimg.org/image/i52oxlreh/" download="myimage" >Workshops Schedule</a></li>
+                <li><a class="page-scroll" href="http://postimg.org/image/6rg5megvt/"  download="myimage">Events Schedule</a></li>
+              </ul>
+            </li>-->
+            <li>
+              <a class=" page-scroll" href="#app" >App</a>
+            </li>
             <li>
               <a class=" page-scroll" href="accommodation.html" target="_blank">Accommodation</a>
+            </li>
+            <li>
+              <a class=" page-scroll" href="team.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -170,7 +180,6 @@
               }
             }
             </style>
-
             <h1 class="heading underline animated fadeInDown"><span class="green">PRAVEGA </span>2016</h1>
             <h4 class="scale animated fadeInUp delay-05s" style="margin-bottom: 0px;">Science,Technical and cultural fest of the <span class="green""> <strong> INDIAN INSTITUTE OF SCIENCE </strong></span></h4><br>
             <h4 class="animated fadeInUp delay-05s" style="margin-bottom: 20px;">29<sup style="text-transform: lowercase;">th</sup> – 31<sup style="text-transform: lowercase;">st</sup> <span class="green">Jan 2016 </span></h4>
@@ -181,7 +190,6 @@
       </div>
     </div>
   </div>
-
 
 
 
@@ -526,12 +534,34 @@
           </div>
 
         </div>
+        
+        
 
 
       </div>
+      
+      
 
     </div>  
     </div>
+    <div id="app" class="row-gree">
+
+            <div class="w-container wrap">
+
+              <div class="center">
+                <h3 class="heading underline">DOWNLOAD OUR APP</h3>
+                <h5>Download Pravega's App and signup with same email used for Pravega's general registrations</h5><br/>
+                        <p>Get details related to all the events and workshops happening at Pravega.<br/>
+                            Schedule of all the events and workshops( Time, Date, Venue)<br/>
+                            Get Custom notifications for the events you have signed up for (Only if same email address is used as for general registrations)</p><br/>
+                <h5>Click on QR Code or Scan it</h5><br>
+                <div class="center">
+                    <a href="https://bnc.lt/m/6zE5hK7s5p" target="_target"><img src="images/app.png" alt="Pravega App" height="150" width="150"></a>
+
+              </div>
+
+            </div>
+        </div>
 
 
 
@@ -658,7 +688,6 @@
             <script src="js/headhesive.min.js"></script>
             <script src="js/waypoints.min.js"></script>
             <script src="js/scripts.js"></script>
-			<script src="js/clock.js"></script>
             <!-- Include all compiled plugins (below), or include individual files as needed -->
 
 
