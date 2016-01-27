@@ -2,7 +2,7 @@
 * Elegance - Onepahe HTML Template
 * Author    : Carino Technologies
 * url       : https:// carinotech.com
-* versions  : v 1.0.0 
+* versions  : v 1.0.0
 */
 
 /*******************************************
@@ -45,7 +45,7 @@ body,html {
 
 body {
   font-size: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Roboto, Helvetica, 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #ecf0f1;
@@ -136,6 +136,11 @@ h6 {
   font-weight: 700;
 }
 
+i {
+    position: relative;
+    z-index: 1000 ;
+}
+
 /* EXTRA LARGE HEADING */
 .xl {
   font-size: 6em;
@@ -155,6 +160,9 @@ h6 {
   color: #c0392b;
 }
 
+.light-blue {
+    color: #2C7CCC;
+}
 
 /******************************
 * MAIN GRID CLASSES
@@ -170,7 +178,7 @@ h6 {
 }
 
 .wrap-normal {
-  padding: 40px 0;
+  padding: 20px 10px;
 }
 
 .wrapper {
@@ -372,7 +380,7 @@ padding: 100px 0 90px;
 
 /* underline headings with image*/
 h1.underline,h2.underline,h3.underline,h4.underline {
-  background: url(../images/underline-headline.png) bottom center no-repeat;
+
 }
 
 h1.underline,h2.underline,h3.underline,h4.underline {
@@ -395,11 +403,11 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
 * Backgrounds
 **********************************************/
 .row-back {
-  background: #2c3e50;
-  border-bottom: 1px solid #34495E;
+  background: #333333;
+  border-bottom: 1px #34495E;
 }
 
-  
+
 .row-gree {
     background: #27AE60;
   border-bottom: 1px solid #27ae60;
@@ -447,7 +455,7 @@ margin: auto;
 
 /********************************************
 
-* Navigation 
+* Navigation
 
 *********************************************/
 .nav {
@@ -682,7 +690,7 @@ background: #FFFFFF !important;
   .cbp-qtrotator {
     font-size: 70%;
   }
-  
+
   .cbp-qtrotator img {
     width: 80px;
   }
@@ -707,14 +715,14 @@ background: #FFFFFF !important;
   background-size: cover;
  /* -moz-border-radius:100px;
   border-radius:100px;*/
-  
+
   vertical-align: top;
   background: #CCC;
   color: #FFF;
   font-size: 30px;
   text-align: center;
   position: relative;
-  
+
 
   float: left;
   vertical-align: baseline;
@@ -751,7 +759,7 @@ background: #FFFFFF !important;
 /* internet explorer */
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 /*IE8*/
-  background: rgba(39,174,96,0.93);
+  background: rgba(21, 92, 195, 0.95);
   -webkit-transition: opacity .3s;
   -moz-transition: opacity .7s;
   -o-transition: opacity .7s;
@@ -1021,7 +1029,7 @@ margin-top: -25px;
 
 /***************************************
 
-* Contact us 
+* Contact us
 
 ***************************************/
 .contact-col {
@@ -1057,7 +1065,7 @@ margin-top: -25px;
 
 /*********************************************
 
-* footer section 
+* footer section
 
 *********************************************/
 .footer {
@@ -1091,7 +1099,7 @@ top: 1px;
 
 #main event {
     -webkit-flex: 1;  /* Safari 6.1+ */
-    -ms-flex: 1;  /* IE 10 */    
+    -ms-flex: 1;  /* IE 10 */
     flex: 1;
 }
 .event{
@@ -1100,18 +1108,16 @@ top: 1px;
     align-content:center;
     /*flex-wrap="wrap";*/
     justify-content:sapce-between;
-    
+
 }
 
 .item{
     width:33.33333333%;
     margin:0px;
-    
+
 }
 
 #sex{width:100%;}
 #sexl{float:left;width:20%;}
 #sexr{float:right;width:20%;}
 #sexc{margin:0 auto;width:20%;}
-
-
