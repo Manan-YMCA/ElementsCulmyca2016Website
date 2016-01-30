@@ -20,13 +20,13 @@
   display: inline-block;
   padding: 20px 60px;
   color: #D7D7D7;
-  background: #2C7CCC;
-  border: 2px solid #2C7CCC;
-  font-size: .95em;
+  background: #2c7ccc;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none ;
   border-radius: 0.3em ;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 5px 5px 0px, rgba(0, 0, 0, 0.117647) 0px 10px 10px 0px;
+  overflow: hidden;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
   -o-transition: all .2s;
@@ -60,22 +60,21 @@
 }
 
 .button.border:hover {
-  background: #D7D7D7;
   text-decoration: none;
-  color: #2C7CCC;
+  color: inherit;
+  background: #D7D7D7;
   border: 2px solid #D7D7D7;
 }
 
 .button:hover {
-  background: #D7D7D7;
   text-decoration: none;
-  color: #2C7CCC;
-  border: 2px solid #D7D7D7;
+  color: inherit;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 10px 10px 0px, rgba(0, 0, 0, 0.117647) 0px 15px 15px 0px;
 }
 
 .button.border {
-  color: #D7D7D7;
   border: 2px solid #D7D7D7;
+  color: inherit;
   background: none;
 }
 
@@ -124,6 +123,26 @@ background: #27AE60;
 
 .icons-heading {
   padding-top: 35px;
+}
+
+/**********************
+
+*Waves effect
+
+***********************/
+
+/*.ink styles - the elements which will create the ripple effect. The size and position of these elements will be set by the JS code. Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.*/
+.ink {
+	display: block; position: absolute;
+	background: hsl(180, 40%, 80%);
+	border-radius: 100%;
+	transform: scale(0);
+}
+/*animation effect*/
+.ink.animate-wave {animation: ripple 0.7s linear;}
+@keyframes ripple {
+	/*scale the element to 250% to safely cover the entire link and fade it out*/
+	100% {opacity: 0; transform: scale(2.5);}
 }
 
 /*****************

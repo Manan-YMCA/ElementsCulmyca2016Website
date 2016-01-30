@@ -88,7 +88,7 @@ h1 {
   letter-spacing: .075em;
   text-transform: uppercase;
   line-height: 1.5;
-  font-size: 3.5em;
+  font-size: 3em;
   margin-bottom: 25px;
 }
 
@@ -179,6 +179,7 @@ i {
 
 .wrap-normal {
   padding: 20px 10px;
+  border-bottom: 1px solid #888 ;
 }
 
 .wrapper {
@@ -384,7 +385,7 @@ h1.underline,h2.underline,h3.underline,h4.underline {
 }
 
 h1.underline,h2.underline,h3.underline,h4.underline {
-  padding-bottom: 20px;
+
 }
 
 /* underline headings with dotted border */
@@ -403,7 +404,7 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
 * Backgrounds
 **********************************************/
 .row-back {
-  background: #333333;
+  background: #222;
   border-bottom: 1px #34495E;
 }
 
@@ -870,6 +871,21 @@ margin-top: -25px;
 }
 
 /****************************
+
+****************************/
+
+.map-container {
+    box-sizing: border-box;
+    position: relative;
+}
+
+    .map-container > #map {
+        min-width: inherit;
+        min-height: 300px;
+    }
+
+
+/****************************
 * Team section
 ****************************/
 .team-album {
@@ -1114,7 +1130,11 @@ top: 1px;
 .item{
     width:33.33333333%;
     margin:0px;
+}
 
+.desc {
+    font-family: Montserrat, Roboto, Helvetica ;
+    font-size: 1.05em ;
 }
 
 #sex{width:100%;}

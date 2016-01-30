@@ -25,15 +25,16 @@ $(document).ready(function(){
     $('.show-popup').click(function(event){
         event.preventDefault(); // disable normal link function so that it doesn't refresh the page
         var selectedPopup = $(this).data('showpopup'); //get the corresponding popup to show
-        
-        showPopup(selectedPopup); //we'll pass in the popup number to our showPopup() function to show which popup we want
+
+        setTimeout(showPopup(selectedPopup), 3000); //added delay to allow display of wave effect 
+         //we'll pass in the popup number to our showPopup() function to show which popup we want
     });
-  
+
     // hide popup when user clicks on close button or if user clicks anywhere outside the container
     $('.close-btn, .overlay-bg').click(function(){
         closePopup();
     });
-    
+
     // hide the popup when user presses the esc key
     $(document).keyup(function(e) {
         if (e.keyCode == 27) { // if user presses esc key
