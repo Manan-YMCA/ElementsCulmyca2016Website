@@ -1,0 +1,99 @@
+.title-s{
+    position: relative;
+}
+
+.title-s-div{
+        text-align: center;
+}
+.t-img{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.t-heading{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.g-heading{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.s-heading{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.main-spon{
+    position: relative;
+}
+
+.main-div{
+    width: 80%;
+    position: relative;
+    text-align:center;
+    left:10%;
+}
+
+.each-mspon{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.main-name{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Roboto;
+    /* font-weight: bold; */
+}
+
+.rest{
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.rest-div{
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.rest-name{
+        width: 100%;
+    text-transform: capitalize;
+    
+    text-align: center;
+    font-size: 18px;
+    /* letter-spacing: .8px; */
+}

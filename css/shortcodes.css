@@ -1,0 +1,163 @@
+/************************
+* Shortcodes
+************************/
+
+.page-heading {
+}
+
+.breadcrumbs span {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+/***************
+
+* Buttons
+
+****************/
+
+.button {
+  display: inline-block;
+  padding: 20px 60px;
+  color: #D7D7D7;
+  background: #2c7ccc;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none ;
+  border-radius: 0.3em ;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 5px 5px 0px, rgba(0, 0, 0, 0.117647) 0px 10px 10px 0px;
+  overflow: hidden;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.button.medium {
+  padding: 10px 30px;
+  font-size: .85em;
+}
+
+.button.small {
+  padding: 5px 15px;
+  font-size: .75em;
+}
+
+.button.border {
+  color: #D7D7D7;
+  border: 2px solid #D7D7D7;
+  background: none;
+}
+
+.button.medium {
+  padding: 10px 30px;
+  font-size: .85em;
+}
+
+.button.small {
+  padding: 5px 15px;
+  font-size: .75em;
+}
+
+.button.border:hover {
+  text-decoration: none;
+  color: inherit;
+  background: #D7D7D7;
+  border: 2px solid #D7D7D7;
+}
+
+.button:hover {
+  	text-decoration: none;
+  	color: inherit;
+	-webkit-box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
+	-moz-box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
+	box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
+}
+
+.button.border {
+  border: 2px solid #D7D7D7;
+  color: inherit;
+  background: none;
+}
+
+/**************************
+* BLOACKQUOTE
+**************************/
+
+p.blockquote {
+  padding: 0 0 0 20px;
+  color: rgba(255,255,255,0.4);
+  border-left: 5px solid #48A65B;
+  font-size: 1em;
+  font-style: italic;
+}
+
+
+/******************************
+* Highlights
+*******************************/
+
+.text-red {
+  color: #FFF;
+padding: 0 2px;
+background: #c0392b;
+}
+
+.text-green {
+  color: #FFF;
+padding: 0 2px;
+background: #27AE60;
+}
+
+
+/************************
+
+* icons box
+
+************************/
+.icon-box {
+  padding-top: 30px;
+}
+
+	.icon-box > i {
+		font-size: 30px ;
+	}
+
+.icon-box,.icon-box p {
+  text-align: center !important;
+}
+
+.icons-heading {
+  padding-top: 35px;
+}
+
+/**********************
+
+*Waves effect
+
+***********************/
+
+/*.ink styles - the elements which will create the ripple effect. The size and position of these elements will be set by the JS code. Initially these elements will be scaled down to 0% and later animated to large fading circles on user click.*/
+.ink {
+	display: block; position: absolute;
+	background: hsl(180, 40%, 80%);
+	border-radius: 100%;
+	transform: scale(0);
+}
+/*animation effect*/
+.ink.animate-wave {animation: ripple 0.7s linear;}
+@keyframes ripple {
+	/*scale the element to 250% to safely cover the entire link and fade it out*/
+	100% {opacity: 0; transform: scale(2.5);}
+}
+
+/*****************
+* Social icons
+******************/
+/*.facebookelegance-icons-,.twitter-birdelegance-icons-,.vimeoelegance-icons-,.tumblrelegance-icons-.,
+.googleplus-rectelegance-,.github-textelegance-icons-,.githubelegance-icons-,.skypeelegance-icons-,
+.vkontakte-rectelegance-icons-,.odnoklassnikielegance-icons-,.friendfeedelegance-icons-,.bloggerelegance-icons-,
+.deviantartelegance-icons-,.jabberelegance-icons-,.lastfmelegance-icons-,.linkedinelegance-icons-,.picasaelegance-icons-,
+.wordpresselegance-icons-,.instagramelegance-icons-,.diigoelegance-icons-,.boxelegance-icons- {
+  font-size: 300%;
+}*/
