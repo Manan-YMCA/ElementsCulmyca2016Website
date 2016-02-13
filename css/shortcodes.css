@@ -67,9 +67,11 @@
 }
 
 .button:hover {
-  text-decoration: none;
-  color: inherit;
-  box-shadow: rgba(0, 0, 0, 0.156863) 0px 10px 10px 0px, rgba(0, 0, 0, 0.117647) 0px 15px 15px 0px;
+  	text-decoration: none;
+  	color: inherit;
+	-webkit-box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
+	-moz-box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
+	box-shadow: 0px 0px 22px -5px rgba(66,199,22,1);
 }
 
 .button.border {
@@ -116,6 +118,10 @@ background: #27AE60;
 .icon-box {
   padding-top: 30px;
 }
+
+	.icon-box > i {
+		font-size: 30px ;
+	}
 
 .icon-box,.icon-box p {
   text-align: center !important;

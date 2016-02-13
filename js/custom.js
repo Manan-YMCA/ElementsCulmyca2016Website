@@ -26,7 +26,7 @@ $(document).ready(function(){
         event.preventDefault(); // disable normal link function so that it doesn't refresh the page
         var selectedPopup = $(this).data('showpopup'); //get the corresponding popup to show
 
-        setTimeout(showPopup(selectedPopup), 3000); //added delay to allow display of wave effect 
+        showPopup(selectedPopup);
          //we'll pass in the popup number to our showPopup() function to show which popup we want
     });
 

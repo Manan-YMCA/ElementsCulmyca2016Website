@@ -1,2 +1,0 @@
-# culmycaWebsite
-Elements Culmyca Website
