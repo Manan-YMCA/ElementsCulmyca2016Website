@@ -59,6 +59,8 @@
 
 .each-mspon{
     display: inline-block;
+    padding-left: 25px ;
+    padding-right: 25px ;
     width: 25%;
     text-align: center;
 }
@@ -82,17 +84,17 @@
 .rest-div{
     text-align: center;
     display: inline-block;
+    padding: 0px 0px ;
     width: 24%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin: 0 25px 40px 25px;
 }
 
 .rest-name{
-        width: 100%;
+    width: 100%;
     text-transform: capitalize;
-    
     text-align: center;
     font-size: 18px;
     /* letter-spacing: .8px; */

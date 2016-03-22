@@ -8,7 +8,8 @@
     <title>Culmyca Art Events</title>
     <!-- END TITLE -->
     <!-- START META, DESCRIPTION, KEYWORDS, AUTHOR -->
-    <meta name="description" content="Culmyca Website" />
+    <meta name="title" content="Culmyca Art Events">
+    <meta name="description" content="Vinci could effectively use a pen with one hand and a brush with another. But what if you didn’t have either? Hussain required a sheet of paper to draw. But what if we don’t give you one? Culmyca gives you a chance to overcome these challenges and let your name stand out of the rest. So put on your wings of imagination and get ready to dive in the pool of colours!!!" />
     <meta name="keywords" content="srijan, art, elements, culmyca, 2016, ymca, ymcaust, faridabad" />
     <meta name="author" content="Satwick" />
     <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
@@ -16,7 +17,7 @@
 
 
     <!-- Facebook -->
-    
+
     <meta property="og:title" content="Culmyca Art Events" />
     <meta property="og:description" content="Vinci could effectively use a pen with one hand and a brush with another. But what if you didn’t have either? Hussain required a sheet of paper to draw. But what if we don’t give you one? Culmyca gives you a chance to overcome these challenges and let your name stand out of the rest. So put on your wings of imagination and get ready to dive in the pool of colours!!!" />
     <meta property="og:image" content="http://elementsculmyca.com/images/FB_pic.png" />
@@ -35,11 +36,12 @@
     <link rel="stylesheet" type="text/css" href="css/headhesive.css">
     <link href="css/animate.css" rel="stylesheet">
     <meta content="width=320px, initial-scale=1, user-scalable=yes" name="viewport" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     <link type="text/css" rel="stylesheet" href="css/overlaypopup.css" />
     <!-- END THEME STYLE -->
-    
+
     <!-- START FONTELLO ICONS STYLESHEET -->
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.4.0\css\font-awesome.css">
@@ -52,9 +54,7 @@
     <!-- LOAD GOOGLE FONT OPEN SANS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700" rel="stylesheet" type="text/css">
     <!-- END GOOGLE FONT OPEN SANS -->
-    <!-- START AJAX WEBFONTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-    <!-- END AJAX WEBFONTS -->
+
     <!-- START MOBILE DETECT -->
     <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
@@ -106,6 +106,9 @@
                         <li>
                             <a class=" page-scroll" href="index.html#events">Events</a>
                         </li>
+                        <li>
+                            <a class=" page-scroll" href="online.html">Online Events</a>
+                        </li>
                         <!-- <li>
                             <a class=" page-scroll" href="Workshops.html">Workshops</a>
                         </li>
@@ -120,10 +123,10 @@
                         </li> -->
                         <!-- <li>
                             <a class=" page-scroll" href="accommodation.html" target="_blank">Accommodation</a>
-                        </li>
-                        <li>
-                            <a class=" page-scroll" href="team.html">Contact</a>
                         </li> -->
+                        <li>
+                            <a class=" page-scroll" href="team.html">Team</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -374,9 +377,13 @@
     // Footer section
 
     //////////////////////////////////////////////////////////-->
-        <div class="footer row-back">
-            <div class="w-container wrap-normal center"> <a href="http://www.elementsculmyca.com" target="_blank">CULMYCA 2016</a> | <span class="green"><a href="http://www.ymcaust.ac.in/" target="_blank">YMCAUST</a></span>
-                <footer>
+            <div class="footer row-back">
+        <div class="w-container wrap center">
+            <span class="blue">
+                        <a href="http://www.elementsculmyca.com" target="_blank">CULMYCA 2016</a> |
+                        <a href="http://www.ymcaust.ac.in/" target="_blank">YMCAUST</a>
+                    </span>
+            <footer>
                 <div style="float:left; padding-left: 2%;">
                     <a href="http://www.ymcaust.ac.in" target="_system"> <img style="max-width: 120px ; max-height: 120px ;" src="images/ymca.png"></a>
                 </div>
@@ -391,57 +398,71 @@
                         padding: 0 30px 0 30px;
                         vertical-align: bottom;
                     }
-                    
+
                     .social {
                         margin-top: 10px;
                         margin-right: 15px;
                         float: right;
                     }
-                    
+
                     a.social > div {
                         height: fit-content;
                         width: fit-content;
                         text-decoration: none;
-                        transition: background 0.2s ease;
+                        transition: background 0.001s ease;
                     }
-                    
+
                     .social > #facebook {
-                        background: url("images/logotype3_nor.png");
+                        background: url("images/logo_sprite.png") 0px -126px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #facebook:hover {
-                        background: url("images/logotype3.png");
+                        background: url("images/logo_sprite.png") 0px -84px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #twitter {
-                        background: url("images/twitter28_nor.png");
+                        background: url("images/logo_sprite.png") 0px -210px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #twitter:hover {
-                        background: url("images/twitter28.png");
+                        background: url("images/logo_sprite.png") 0px -168px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #youtube {
-                        background: url("images/youtube28_nor.png");
+                        background: url("images/logo_sprite.png") 0px -294px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #youtube:hover {
-                        background: url("images/youtube28.png");
+                        background: url("images/logo_sprite.png") 0px -252px ;
+                        width: 32px;
+                        height: 32px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .social > #insta {
+                        background: url("images/logo_sprite.png") 0px -42px ;
+                        width: 32px;
+                        height: 32px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .social > #insta:hover {
+                        background: url("images/logo_sprite.png") 0px 0px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
@@ -457,11 +478,14 @@
                         <a href="https://www.youtube.com/channel/UCVMMQ2TqmmE5X610wFIEMPw" class="social" target="_system">
                             <div id="youtube"></div>
                         </a>
+                        <a href="https://www.instagram.com/elementsculmyca16/" class="social" target="_system">
+                            <div id="insta"></div>
+                        </a>
                     </div>
                 </div>
             </footer>
-            </div>
         </div>
+    </div>
         <!--///////////////////////////////////////////////////////
 
     // End Footer section
@@ -485,6 +509,19 @@
             </div>
         </div>
     </div>
+    <div class="overlay-content popup2a scrollbar" id="style-2">
+        <div class="force-overflow">
+            <button class="close-btn">Close</button>
+            <div class="w-container wrap-normal">
+                <strong>RULES:</strong> <br>
+                1. This is an individual event. <br>
+                2. Sheet and basic stationary will be provided by the club, however teams can bring their own materials and use it with permission. <br>
+                3. Theme will be provided on the spot. <br>
+                4. As the event suggests,you have to select random partners.  <br>
+                5. Top three entries would be given prizes on the basis of judging criterion. <br>
+            </div>
+        </div>
+    </div>
     <div class="overlay-content popup3a scrollbar" id="style-2">
         <div class="force-overflow">
             <button class="close-btn">Close</button>
@@ -496,6 +533,18 @@
                 4. Ten teams shall be selected from the prelims and would go into final round. <br>
                 5. Colors and the other material shall be provided by the club. However, teams can bring ther own materials and use it after seeking permission. <br>
                 6. Top three entries from the final round shall be given prizes. <br>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-content popup4a scrollbar" id="style-2">
+        <div class="force-overflow">
+            <button class="close-btn">Close</button>
+            <div class="w-container wrap-normal">
+                <strong>RULES :</strong> <br>
+                1. Teams of 2. <br>
+                2. Theme will be provided on the spot. <br>
+                3. Colors and basic materials would be provided by the club.  <br>
+                4. Top three entries would be given prizes. <br>
             </div>
         </div>
     </div>
@@ -513,9 +562,9 @@
             </div>
         </div>
     </div>
-    <!-- START JQUERY PLUGINS LOAD -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!--     //  -->
+
+    <!-- START JQUERY PLUGINS LOAD
     <script src="js/grayscale.js"></script>
     <script src="js/normal.js"></script>
     <script src="js/carousels.js"></script>
@@ -527,9 +576,11 @@
     <script src="js/rotating-text.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/headhesive.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
+
     <script src="js/scripts.js"></script>
-    <!-- END JQUERY PLUGINS LOAD -->
+    END JQUERY PLUGINS LOAD -->
+    <script src="js/combined.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
 </body>
 
 </html>

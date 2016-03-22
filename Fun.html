@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Facebook -->
-    
+
     <meta property="og:title" content="Culmyca Fun Events" />
     <meta property="og:description" content="Tired after storming your brain in the quizzes? Want to relax your nerves after an intense round of debating? Culmyca brings to you a collection of events that will not only serve as a breather but will also explore the lighter side of our festival." />
     <meta property="og:image" content="http://elementsculmyca.com/images/FB_pic.png" />
@@ -41,28 +41,20 @@
     <link rel="stylesheet" type="text/css" href="css/fontello-ie7.css">
     <link rel="stylesheet" type="text/css" href="icons/fun/flaticon.css">
     <!-- END FONTELLO ICONS STYLESHEET -->
-    <!-- START MAGNIFIC POPUP STYLESHEET -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <!-- END MAGNIFIC POPUP STYLESHEET -->
-    <!-- LOAD GOOGLE FONT OPEN SANS -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700" rel="stylesheet" type="text/css">
-    <!-- END GOOGLE FONT OPEN SANS -->
-    <!-- START AJAX WEBFONTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-    <!-- END AJAX WEBFONTS -->
-    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+
     <link type="text/css" rel="stylesheet" href="css/overlaypopup.css" />
     <!-- START MOBILE DETECT -->
     <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
     </script>
     <!-- END MOBILE DETECT -->
-    
-    <!-- START FAVICON -->
+
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <!-- EDN FAVICON -->
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+
 </head>
 <!-- END HEAD -->
 
@@ -105,15 +97,21 @@
                         <li>
                             <a class=" page-scroll" href="index.html#events">Events</a>
                         </li>
+                        <li>
+                            <a class=" page-scroll" href="online.html">Events</a>
+                        </li>
+                        <!-- <li>
+                            <a class=" page-scroll" href="online.html">Online Events</a>
+                        </li> -->
                         <!-- <li>
                             <a class=" page-scroll" href="sponsors.html">Sponsors</a>
                         </li>
                         <li>
                             <a class=" page-scroll" href="accommodation.html" target="_blank">Accommodation</a>
-                        </li>
-                        <li>
-                            <a class=" page-scroll" href="team.html">Contact</a>
                         </li> -->
+                        <li>
+                            <a class=" page-scroll" href="team.html">Team</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -244,11 +242,6 @@
                             Wanna have fun? Love Bollywood masti? Come and Join us in a power packed event, full of interesting games and confusing puzzles. Let's test your bollywood knowledge and multitasking capabilties.
                         </p>
                     </div>
-                    <div class="w-col">
-                        <div class="center wp5">
-                            <a class="button wp5 fadeInUp delay-1-s" href="#" target="_blank">Register</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -327,6 +320,23 @@
                 </div>
             </div>
         </div>
+        <div>
+            <div class="row-back">
+                <div class="w-container wrap-normal">
+                    <div class="center">
+                        <h2 class="center-fix scale1"><span class="green"> RAAHGIRI </span>AT YMCA </h2>
+                        <p class="desc">
+                            Let's come together to move all your muscles rhythmically, to improve your cardiomuscular systems. Let's come together for fun moment to meet and interact with new people. If you love songs you will surely enjoy it.
+                        </p>
+                    </div>
+                    <div class="w-col">
+                        <div class="center wp5">
+                            <a class="show-popup button wp5 fadeInUp delay-1-5s" data-showpopup="8a" href="#">MORE INFO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--///////////////////////////////////////////////////////
 
     // End Service section
@@ -337,9 +347,13 @@
     // Footer section
 
     //////////////////////////////////////////////////////////-->
-        <div class="footer row-back">
-            <div class="w-container wrap-normal center"> <a href="http://www.elementsculmyca.com" target="_blank">CULMYCA 2016</a> | <span class="green"><a href="http://www.ymcaust.ac.in/" target="_blank">YMCAUST</a></span>
-                <footer>
+            <div class="footer row-back">
+        <div class="w-container wrap center">
+            <span class="blue">
+                        <a href="http://www.elementsculmyca.com" target="_blank">CULMYCA 2016</a> |
+                        <a href="http://www.ymcaust.ac.in/" target="_blank">YMCAUST</a>
+                    </span>
+            <footer>
                 <div style="float:left; padding-left: 2%;">
                     <a href="http://www.ymcaust.ac.in" target="_system"> <img style="max-width: 120px ; max-height: 120px ;" src="images/ymca.png"></a>
                 </div>
@@ -354,57 +368,71 @@
                         padding: 0 30px 0 30px;
                         vertical-align: bottom;
                     }
-                    
+
                     .social {
                         margin-top: 10px;
                         margin-right: 15px;
                         float: right;
                     }
-                    
+
                     a.social > div {
                         height: fit-content;
                         width: fit-content;
                         text-decoration: none;
-                        transition: background 0.2s ease;
+                        transition: background 0.001s ease;
                     }
-                    
+
                     .social > #facebook {
-                        background: url("images/logotype3_nor.png");
+                        background: url("images/logo_sprite.png") 0px -126px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #facebook:hover {
-                        background: url("images/logotype3.png");
+                        background: url("images/logo_sprite.png") 0px -84px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #twitter {
-                        background: url("images/twitter28_nor.png");
+                        background: url("images/logo_sprite.png") 0px -210px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #twitter:hover {
-                        background: url("images/twitter28.png");
+                        background: url("images/logo_sprite.png") 0px -168px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #youtube {
-                        background: url("images/youtube28_nor.png");
+                        background: url("images/logo_sprite.png") 0px -294px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
                     }
-                    
+
                     .social > #youtube:hover {
-                        background: url("images/youtube28.png");
+                        background: url("images/logo_sprite.png") 0px -252px ;
+                        width: 32px;
+                        height: 32px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .social > #insta {
+                        background: url("images/logo_sprite.png") 0px -42px ;
+                        width: 32px;
+                        height: 32px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .social > #insta:hover {
+                        background: url("images/logo_sprite.png") 0px 0px ;
                         width: 32px;
                         height: 32px;
                         background-repeat: no-repeat;
@@ -420,11 +448,14 @@
                         <a href="https://www.youtube.com/channel/UCVMMQ2TqmmE5X610wFIEMPw" class="social" target="_system">
                             <div id="youtube"></div>
                         </a>
+                        <a href="https://www.instagram.com/elementsculmyca16/" class="social" target="_system">
+                            <div id="insta"></div>
+                        </a>
                     </div>
                 </div>
             </footer>
-            </div>
         </div>
+    </div>
         <!--///////////////////////////////////////////////////////
 
     // End Footer section
@@ -445,12 +476,23 @@
                 5. Volunteers are free to enquire from participants about the solution of previous clue. <br>
                 6. In case of any dispute, the decision of organisers will be considered final.  <br>
                 7. Cross-college teams are allowed. <br>
+                8. Offline registrations will be closed 20 minutes prior to the commencement of the event. <br>
             </div>
         </div>
     </div>
-    <!-- START JQUERY PLUGINS LOAD -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <div class="overlay-content popup8a scrollbar" id="style-2">
+        <div class="force-overflow">
+            <button class="close-btn">Close</button>
+            <div class="w-container wrap-normal">
+                Day 1 - Latest Bollywood Songs. <br>
+                Day 2 - Indian classical with remix beats. <br>
+                Day 3 - Beat of different languages. <br>
+            </div>
+        </div>
+    </div>
+    <script src="js/combined.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- START JQUERY PLUGINS LOAD
     <script src="js/grayscale.js"></script>
     <script src="js/normal.js"></script>
     <script src="js/carousels.js"></script>
@@ -464,7 +506,7 @@
     <script src="js/headhesive.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- END JQUERY PLUGINS LOAD -->
+    END JQUERY PLUGINS LOAD -->
 </body>
 
 </html>
